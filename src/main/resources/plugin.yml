@@ -1,0 +1,15 @@
+main: com.aaw3.chatreactplugin.App
+name: ChatReactPlugin
+version: 1
+description: Plays sounds from the server resource pack whenever someone says a specific phrase in chat.
+api-version: '1.20'
+load: POSTWORLD
+authors: [aaw3]
+commands:
+   chatreact:
+      descrption: Chat React management command
+      usage: /chatreact reload
+      permission: chatreact.reload
+permissions:
+   plugin.reload:
+      description: Reload Chat React
